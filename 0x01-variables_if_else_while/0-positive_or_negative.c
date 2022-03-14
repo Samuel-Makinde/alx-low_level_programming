@@ -3,11 +3,11 @@
 #include <time.h>
 
 /**
- * main - to show if n is positive or negative
+ * main - determine if n is positive or negative
  *
- * description - n is being assign a new number everything we run it
+ * Description - program n is being assign diffrent value each time we run it
  *
- * return - always 0 (success)
+ * Return - Always 0 (Success)
  */
 
 int main(void)

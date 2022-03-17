@@ -1,21 +1,19 @@
 #include "main.h"
 
 /**
- * main - to print _putchar
- * Description: to print _putchar as a word
- * Return: Always 0 (Success)
+ * _isupper - checks for uppercase character
+ * @c: - character to be checked for case
+ * Return: 1 if uppercase, 0 otherwise
  */
 
-int main(void)
+int _isupper(int c)
 {
-	char words[9] = "_putchar";
-	int i = 0;
-
-	for (i = 0; i < 8; i++)
+	if (c >= 'A' && c <= 'Z')
 	{
-		_putchar(words[i]);
+		return (1);
 	}
-	_putchar('\n');
-	return (0);
-
+	else
+	{
+		return (0);
+	}
 }

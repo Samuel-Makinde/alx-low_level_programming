@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * 0-reset_to_98.c - reset to another integer
+ * reset_to_98 - takes a pointer to parameter and update it value to new one
  * @n: in put integer:
  * Results: void
  */
